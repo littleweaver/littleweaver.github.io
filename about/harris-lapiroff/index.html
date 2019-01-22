@@ -1,0 +1,255 @@
+
+
+
+
+<!DOCTYPE html>
+<html class="no-js">
+	
+<!-- Mirrored from littleweaverweb.com/about/harris-lapiroff/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Jan 2019 23:19:05 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		
+			
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"5bb68c558a","agent":"","transactionName":"Nl1bNUtTV0QCUhBfWg8XfxRXUU1eDF9LQVQGTFgIVRxOVgRFBV9ZAldLBBdEUFIUQl5FUBNOXA==","applicationID":"7709560","errorBeacon":"bam.nr-data.net","applicationTime":200}</script>
+			<meta property="og:site_name" content="Little Weaver Web Collective"/>
+			<meta property="og:url" content="https://littleweaverweb.com/about/harris-lapiroff/" />
+			<meta property="og:title" content="Harris Lapiroff
+" />
+			<meta name="twitter:card" content="summary">
+			<meta name="twitter:site" content="@littleweaverweb">
+		
+
+		<title>Harris Lapiroff
+</title>
+
+		<link rel="stylesheet" href="/static/CACHE/css/4beb28c1c3d9.css" type="text/css" />
+		<link rel="stylesheet" href="/static/font-awesome/4.5.0/css/font-awesome.min.css">
+
+		<script type="text/javascript" src="http://use.typekit.net/kir3awt.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+		
+		<link rel="apple-touch-icon" sizes="57x57" href="/static/img/favicons/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/static/img/favicons/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/static/img/favicons/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/static/img/favicons/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/static/img/favicons/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/static/img/favicons/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/static/img/favicons/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/static/img/favicons/apple-touch-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/static/img/favicons/apple-touch-icon-180x180.png">
+		<link rel="icon" type="image/png" href="/static/img/favicons/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="/static/img/favicons/android-chrome-192x192.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="/static/img/favicons/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="/static/img/favicons/favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="/static/img/favicons/manifest.json">
+		<link rel="mask-icon" href="/static/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="msapplication-TileImage" content="/static/img/favicons/mstile-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		
+			<script>
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+				ga('create', 'UA-52154832-3', 'auto');
+				ga('send', 'pageview');
+			</script>
+		
+	</head>
+	<body class="">
+
+		
+	<header class="site-header compact-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-3 col-md-2">
+					<div class="header-logo">
+						<a href="../../index.html">
+							<img src="/static/img/logo.svg" alt="Little Weaver Logo" class="header-logo-img header-logo-img--compact" />
+						</a>
+					</div>
+				</div>
+				<div class="col-xs-9 col-md-10">
+					<div class='clearfix'>
+						<ul class="nav nav-pills nav--lw nav--white pull-left  hidden-sm-only">
+							<li class="nav-item"><a href="../../index.html" class="nav-link nav-link-special">Little Weaver Web Collective</a></li>
+						</ul>
+						<ul class="nav nav-pills nav--lw nav--white pull-sm-right nav--lw--links">
+	
+		<li class="nav-item"><a class="nav-link" href="../../services/index.html">Services</a></li>
+		<li class="nav-item"><a class="nav-link" href="../../work/index.html">Work</a></li>
+		<li class="nav-item"><a class="nav-link" href="../../blog/index.html">Blog</a></li>
+		<li class="nav-item"><a class="nav-link" href="../index.html">About</a></li>
+	
+</ul>
+
+					</div>
+				
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		
+
+
+<div class="banner-image" style="background-image:url();background-position:top center;">
+  <div class="container banner-image-text">
+    <h1 class="color-white">Harris Lapiroff</h1>
+  </div>
+</div>
+
+<div class="pane--light-gray p-y-3">
+  <div class="container">
+    <div class="col-sm-4 col-sm-push-8 col-md-3 col-md-push-7 m-b-2-xs-down">
+      <img alt="harris.jpg" class="img-fluid img-circle" height="500" src="/media/images/little-weavers-2017-May25-188.0708fee0.fill-500x500.jpg" width="500">
+    </div>
+    <div class="col-sm-8 col-sm-pull-4 col-md-5 col-md-offset-2 col-md-pull-3">
+      <div class="lead--except-sm">
+	<div class="rich-text"><p>Harris is a versatile full-stack web developer based in Washington, DC. He is comfortable designing user interfaces as well as the Python/Django backends to drive them. He has been doing web development professionally for ten years.</p></div>
+      </div>
+      <ul class="list-inline">
+	
+	<li class="list-inline-item m-r-2"><a href="http://github.com/harrislapiroff" class="link-no-underline" title="GitHub profile">GitHub</a></li>
+	
+	
+	<li class="list-inline-item m-r-2"><a href="http://twitter.com/harrislapiroff" class="link-no-underline" title="Twitter profile">Twitter</a></li>
+	
+	
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container p-y-3">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <h1>Blog Entries</h1>
+
+      
+      <div class="m-t-3">
+	<header class="blog-post-header m-b-0">
+	<h2 class="blog-post-title card-title">
+		<a href="../../blog/heartbleed/index.html" class="color-black-almost">Heartbleed</a>
+	</h2>
+	<div class="blog-post-byline-dateline m-b-1">
+		<span class="color-black-almost">
+			
+            <a href="index.html">
+				Harris Lapiroff
+            </a>
+			
+		</span>
+		<span class="dateline">
+			<time datetime="2014-04-10">April 10, 2014</time>
+		</span>
+	</div>
+</header>
+<div class="m-b-1">
+	I’ve seen a lot on Facebook recently about the Heartbleed bug with a lot of different information. I imagine some people are having trouble sorting the signal from the noise in this matter. I’m not a security expert, but I am a devoted security amateur, so with that in mind, here is my analysis and recommendations.
+</div>
+<footer>
+	<a href="../../blog/heartbleed/index.html" class="btn btn-sm btn-secondary m-t-1-tiny">Read <i class="fa fa-fw fa-chevron-right"></i></a>
+</footer>
+
+      </div>
+      
+      <div class="m-t-3">
+	<header class="blog-post-header m-b-0">
+	<h2 class="blog-post-title card-title">
+		<a href="../../blog/announcing-first-ever-dancerfly-sprint/index.html" class="color-black-almost">Announcing the first ever Dancerfly Sprint!</a>
+	</h2>
+	<div class="blog-post-byline-dateline m-b-1">
+		<span class="color-black-almost">
+			
+            <a href="index.html">
+				Harris Lapiroff
+            </a>
+			
+		</span>
+		<span class="dateline">
+			<time datetime="2015-09-03">Sept. 3, 2015</time>
+		</span>
+	</div>
+</header>
+<div class="m-b-1">
+	We’re hosting the first ever Dancerfly Sprint on September 12, 2015. We will be working all day to make Dancerfly better. If you like dance events and the web, we’d love to have you join us!
+</div>
+<footer>
+	<a href="../../blog/announcing-first-ever-dancerfly-sprint/index.html" class="btn btn-sm btn-secondary m-t-1-tiny">Read <i class="fa fa-fw fa-chevron-right"></i></a>
+</footer>
+
+      </div>
+      
+      <div class="m-t-3">
+	<header class="blog-post-header m-b-0">
+	<h2 class="blog-post-title card-title">
+		<a href="../../blog/accessibility-and-best-possible-experience-all/index.html" class="color-black-almost">Accessibility and the Best Possible Experience for All</a>
+	</h2>
+	<div class="blog-post-byline-dateline m-b-1">
+		<span class="color-black-almost">
+			
+            <a href="index.html">
+				Harris Lapiroff
+            </a>
+			
+		</span>
+		<span class="dateline">
+			<time datetime="2017-05-15">May 15, 2017</time>
+		</span>
+	</div>
+</header>
+<div class="m-b-1">
+	Little Weaver is committed to building websites that provide a usable and enjoyable experience to all users. Over our years of operation, we&#39;ve done a lot of research about it.
+</div>
+<footer>
+	<a href="../../blog/accessibility-and-best-possible-experience-all/index.html" class="btn btn-sm btn-secondary m-t-1-tiny">Read <i class="fa fa-fw fa-chevron-right"></i></a>
+</footer>
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+  
+	</main>
+
+
+		<footer class="js-site-footer site-footer p-y-3">
+			<div class="muted container">
+				<div class="row">
+					<div class="col-md-6">
+						<a href="http://twitter.com/littleweaverweb" class="social-link color-gray-mid color-white-hover link-no-underline"><i class="fa fa-fw fa-lg fa-twitter"></i> <span class="sr-only">Twitter</span></a>
+						<a href="http://facebook.com/littleweaverwebcollective" class="social-link color-gray-mid color-white-hover link-no-underline"><i class="fa fa-fw fa-lg fa-facebook-square"></i> <span class="sr-only">Facebook</span></a>
+						<a href="http://github.com/littleweaver" class="social-link color-gray-mid color-white-hover link-no-underline"><i class="fa fa-fw fa-lg fa-github"></i> <span class="sr-only">GitHub</span></a>
+					</div>
+					<div class="col-md-6 text-md-right">
+						<p>&copy; 2019  Little Weaver Web Collective, LLC.</p>
+						<p><i class="fa fa-heart-o color-red"></i> Made with love.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		
+
+		<script type="text/javascript">/*!
+Waypoints - 4.0.0
+Copyright © 2011-2015 Caleb Troughton
+Licensed under the MIT license.
+https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
+*/!function(){"use strict";function t(n){if(!n)throw new Error("No options passed to Waypoint constructor");if(!n.element)throw new Error("No element option passed to Waypoint constructor");if(!n.handler)throw new Error("No handler option passed to Waypoint constructor");this.key="waypoint-"+e,this.options=t.Adapter.extend({},t.defaults,n),this.element=this.options.element,this.adapter=new t.Adapter(this.element),this.callback=n.handler,this.axis=this.options.horizontal?"horizontal":"vertical",this.enabled=this.options.enabled,this.triggerPoint=null,this.group=t.Group.findOrCreate({name:this.options.group,axis:this.axis}),this.context=t.Context.findOrCreateByElement(this.options.context),t.offsetAliases[this.options.offset]&&(this.options.offset=t.offsetAliases[this.options.offset]),this.group.add(this),this.context.add(this),i[this.key]=this,e+=1}var e=0,i={};t.prototype.queueTrigger=function(t){this.group.queueTrigger(this,t)},t.prototype.trigger=function(t){this.enabled&&this.callback&&this.callback.apply(this,t)},t.prototype.destroy=function(){this.context.remove(this),this.group.remove(this),delete i[this.key]},t.prototype.disable=function(){return this.enabled=!1,this},t.prototype.enable=function(){return this.context.refresh(),this.enabled=!0,this},t.prototype.next=function(){return this.group.next(this)},t.prototype.previous=function(){return this.group.previous(this)},t.invokeAll=function(t){var e=[];for(var n in i)e.push(i[n]);for(var o=0,r=e.length;r>o;o++)e[o][t]()},t.destroyAll=function(){t.invokeAll("destroy")},t.disableAll=function(){t.invokeAll("disable")},t.enableAll=function(){t.invokeAll("enable")},t.refreshAll=function(){t.Context.refreshAll()},t.viewportHeight=function(){return window.innerHeight||document.documentElement.clientHeight},t.viewportWidth=function(){return document.documentElement.clientWidth},t.adapters=[],t.defaults={context:window,continuous:!0,enabled:!0,group:"default",horizontal:!1,offset:0},t.offsetAliases={"bottom-in-view":function(){return this.context.innerHeight()-this.adapter.outerHeight()},"right-in-view":function(){return this.context.innerWidth()-this.adapter.outerWidth()}},window.Waypoint=t}(),function(){"use strict";function t(t){window.setTimeout(t,1e3/60)}function e(t){this.element=t,this.Adapter=o.Adapter,this.adapter=new this.Adapter(t),this.key="waypoint-context-"+i,this.didScroll=!1,this.didResize=!1,this.oldScroll={x:this.adapter.scrollLeft(),y:this.adapter.scrollTop()},this.waypoints={vertical:{},horizontal:{}},t.waypointContextKey=this.key,n[t.waypointContextKey]=this,i+=1,this.createThrottledScrollHandler(),this.createThrottledResizeHandler()}var i=0,n={},o=window.Waypoint,r=window.onload;e.prototype.add=function(t){var e=t.options.horizontal?"horizontal":"vertical";this.waypoints[e][t.key]=t,this.refresh()},e.prototype.checkEmpty=function(){var t=this.Adapter.isEmptyObject(this.waypoints.horizontal),e=this.Adapter.isEmptyObject(this.waypoints.vertical);t&&e&&(this.adapter.off(".waypoints"),delete n[this.key])},e.prototype.createThrottledResizeHandler=function(){function t(){e.handleResize(),e.didResize=!1}var e=this;this.adapter.on("resize.waypoints",function(){e.didResize||(e.didResize=!0,o.requestAnimationFrame(t))})},e.prototype.createThrottledScrollHandler=function(){function t(){e.handleScroll(),e.didScroll=!1}var e=this;this.adapter.on("scroll.waypoints",function(){(!e.didScroll||o.isTouch)&&(e.didScroll=!0,o.requestAnimationFrame(t))})},e.prototype.handleResize=function(){o.Context.refreshAll()},e.prototype.handleScroll=function(){var t={},e={horizontal:{newScroll:this.adapter.scrollLeft(),oldScroll:this.oldScroll.x,forward:"right",backward:"left"},vertical:{newScroll:this.adapter.scrollTop(),oldScroll:this.oldScroll.y,forward:"down",backward:"up"}};for(var i in e){var n=e[i],o=n.newScroll>n.oldScroll,r=o?n.forward:n.backward;for(var s in this.waypoints[i]){var l=this.waypoints[i][s],a=n.oldScroll<l.triggerPoint,h=n.newScroll>=l.triggerPoint,p=a&&h,u=!a&&!h;(p||u)&&(l.queueTrigger(r),t[l.group.id]=l.group)}}for(var c in t)t[c].flushTriggers();this.oldScroll={x:e.horizontal.newScroll,y:e.vertical.newScroll}},e.prototype.innerHeight=function(){return this.element==this.element.window?o.viewportHeight():this.adapter.innerHeight()},e.prototype.remove=function(t){delete this.waypoints[t.axis][t.key],this.checkEmpty()},e.prototype.innerWidth=function(){return this.element==this.element.window?o.viewportWidth():this.adapter.innerWidth()},e.prototype.destroy=function(){var t=[];for(var e in this.waypoints)for(var i in this.waypoints[e])t.push(this.waypoints[e][i]);for(var n=0,o=t.length;o>n;n++)t[n].destroy()},e.prototype.refresh=function(){var t,e=this.element==this.element.window,i=e?void 0:this.adapter.offset(),n={};this.handleScroll(),t={horizontal:{contextOffset:e?0:i.left,contextScroll:e?0:this.oldScroll.x,contextDimension:this.innerWidth(),oldScroll:this.oldScroll.x,forward:"right",backward:"left",offsetProp:"left"},vertical:{contextOffset:e?0:i.top,contextScroll:e?0:this.oldScroll.y,contextDimension:this.innerHeight(),oldScroll:this.oldScroll.y,forward:"down",backward:"up",offsetProp:"top"}};for(var r in t){var s=t[r];for(var l in this.waypoints[r]){var a,h,p,u,c,f=this.waypoints[r][l],d=f.options.offset,y=f.triggerPoint,g=0,w=null==y;f.element!==f.element.window&&(g=f.adapter.offset()[s.offsetProp]),"function"==typeof d?d=d.apply(f):"string"==typeof d&&(d=parseFloat(d),f.options.offset.indexOf("%")>-1&&(d=Math.ceil(s.contextDimension*d/100))),a=s.contextScroll-s.contextOffset,f.triggerPoint=g+a-d,h=y<s.oldScroll,p=f.triggerPoint>=s.oldScroll,u=h&&p,c=!h&&!p,!w&&u?(f.queueTrigger(s.backward),n[f.group.id]=f.group):!w&&c?(f.queueTrigger(s.forward),n[f.group.id]=f.group):w&&s.oldScroll>=f.triggerPoint&&(f.queueTrigger(s.forward),n[f.group.id]=f.group)}}return o.requestAnimationFrame(function(){for(var t in n)n[t].flushTriggers()}),this},e.findOrCreateByElement=function(t){return e.findByElement(t)||new e(t)},e.refreshAll=function(){for(var t in n)n[t].refresh()},e.findByElement=function(t){return n[t.waypointContextKey]},window.onload=function(){r&&r(),e.refreshAll()},o.requestAnimationFrame=function(e){var i=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||t;i.call(window,e)},o.Context=e}(),function(){"use strict";function t(t,e){return t.triggerPoint-e.triggerPoint}function e(t,e){return e.triggerPoint-t.triggerPoint}function i(t){this.name=t.name,this.axis=t.axis,this.id=this.name+"-"+this.axis,this.waypoints=[],this.clearTriggerQueues(),n[this.axis][this.name]=this}var n={vertical:{},horizontal:{}},o=window.Waypoint;i.prototype.add=function(t){this.waypoints.push(t)},i.prototype.clearTriggerQueues=function(){this.triggerQueues={up:[],down:[],left:[],right:[]}},i.prototype.flushTriggers=function(){for(var i in this.triggerQueues){var n=this.triggerQueues[i],o="up"===i||"left"===i;n.sort(o?e:t);for(var r=0,s=n.length;s>r;r+=1){var l=n[r];(l.options.continuous||r===n.length-1)&&l.trigger([i])}}this.clearTriggerQueues()},i.prototype.next=function(e){this.waypoints.sort(t);var i=o.Adapter.inArray(e,this.waypoints),n=i===this.waypoints.length-1;return n?null:this.waypoints[i+1]},i.prototype.previous=function(e){this.waypoints.sort(t);var i=o.Adapter.inArray(e,this.waypoints);return i?this.waypoints[i-1]:null},i.prototype.queueTrigger=function(t,e){this.triggerQueues[e].push(t)},i.prototype.remove=function(t){var e=o.Adapter.inArray(t,this.waypoints);e>-1&&this.waypoints.splice(e,1)},i.prototype.first=function(){return this.waypoints[0]},i.prototype.last=function(){return this.waypoints[this.waypoints.length-1]},i.findOrCreate=function(t){return n[t.axis][t.name]||new i(t)},o.Group=i}(),function(){"use strict";function t(t){return t===t.window}function e(e){return t(e)?e:e.defaultView}function i(t){this.element=t,this.handlers={}}var n=window.Waypoint;i.prototype.innerHeight=function(){var e=t(this.element);return e?this.element.innerHeight:this.element.clientHeight},i.prototype.innerWidth=function(){var e=t(this.element);return e?this.element.innerWidth:this.element.clientWidth},i.prototype.off=function(t,e){function i(t,e,i){for(var n=0,o=e.length-1;o>n;n++){var r=e[n];i&&i!==r||t.removeEventListener(r)}}var n=t.split("."),o=n[0],r=n[1],s=this.element;if(r&&this.handlers[r]&&o)i(s,this.handlers[r][o],e),this.handlers[r][o]=[];else if(o)for(var l in this.handlers)i(s,this.handlers[l][o]||[],e),this.handlers[l][o]=[];else if(r&&this.handlers[r]){for(var a in this.handlers[r])i(s,this.handlers[r][a],e);this.handlers[r]={}}},i.prototype.offset=function(){if(!this.element.ownerDocument)return null;var t=this.element.ownerDocument.documentElement,i=e(this.element.ownerDocument),n={top:0,left:0};return this.element.getBoundingClientRect&&(n=this.element.getBoundingClientRect()),{top:n.top+i.pageYOffset-t.clientTop,left:n.left+i.pageXOffset-t.clientLeft}},i.prototype.on=function(t,e){var i=t.split("."),n=i[0],o=i[1]||"__default",r=this.handlers[o]=this.handlers[o]||{},s=r[n]=r[n]||[];s.push(e),this.element.addEventListener(n,e)},i.prototype.outerHeight=function(e){var i,n=this.innerHeight();return e&&!t(this.element)&&(i=window.getComputedStyle(this.element),n+=parseInt(i.marginTop,10),n+=parseInt(i.marginBottom,10)),n},i.prototype.outerWidth=function(e){var i,n=this.innerWidth();return e&&!t(this.element)&&(i=window.getComputedStyle(this.element),n+=parseInt(i.marginLeft,10),n+=parseInt(i.marginRight,10)),n},i.prototype.scrollLeft=function(){var t=e(this.element);return t?t.pageXOffset:this.element.scrollLeft},i.prototype.scrollTop=function(){var t=e(this.element);return t?t.pageYOffset:this.element.scrollTop},i.extend=function(){function t(t,e){if("object"==typeof t&&"object"==typeof e)for(var i in e)e.hasOwnProperty(i)&&(t[i]=e[i]);return t}for(var e=Array.prototype.slice.call(arguments),i=1,n=e.length;n>i;i++)t(e[0],e[i]);return e[0]},i.inArray=function(t,e,i){return null==e?-1:e.indexOf(t,i)},i.isEmptyObject=function(t){for(var e in t)return!1;return!0},n.adapters.push({name:"noframework",Adapter:i}),n.Adapter=i}();(function(){'use strict';function throttle(fn,threshhold,scope){threshhold||(threshhold=250);var last,deferTimer;return function(){var context=scope||this;var now=+new Date,args=arguments;if(last&&now<last+threshhold){clearTimeout(deferTimer);deferTimer=setTimeout(function(){last=now;fn.apply(context,args);},threshhold);}else{last=now;fn.apply(context,args);}};}
+var setStickyFooterHeight=throttle(function(){var footerElm=document.getElementsByClassName('js-site-footer');if(footerElm.length===0){return;}
+var footerHeight=footerElm[0].offsetHeight;document.body.style.marginBottom=footerHeight+'px';},50);document.addEventListener('DOMContentLoaded',setStickyFooterHeight);window.addEventListener('resize',setStickyFooterHeight);(function(){var elm=document.getElementsByClassName('js-technology-pane-waypoint');if(elm.length===0){return;}
+elm[0].className+=' animation-fade-in--pre';var waypoint=new Waypoint({element:elm[0],offset:'bottom-in-view',handler:function(){elm[0].className=elm[0].className.replace('animation-fade-in--pre','animation-fade-in--start')}});})();})();</script>
+		
+	</body>
+
+<!-- Mirrored from littleweaverweb.com/about/harris-lapiroff/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Jan 2019 23:19:05 GMT -->
+</html>
