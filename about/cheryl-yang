@@ -6,33 +6,19 @@
 <html class="no-js">
 	<head>
 		
-	
 			
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 			<meta property="og:site_name" content="Little Weaver Web Collective"/>
-			<meta property="og:url" content="https://littleweaverweb.com/blog/closing-little-weaver/" />
-			<meta property="og:title" content="Closing Little Weaver
+			<meta property="og:url" content="https://littleweaverweb.com/about/cheryl-yang/" />
+			<meta property="og:title" content="Cheryl Yang
 " />
 			<meta name="twitter:card" content="summary">
 			<meta name="twitter:site" content="@littleweaverweb">
 		
-	<meta property="og:type" content="article" />
-	
-		
-		<meta property="og:image" content="https://littleweaverweb.s3.amazonaws.com/media/images/mirotea.original.jpg" />
-	
-	
-		<meta name="twitter:creator" content="@nmorduch" />
-	
-	
-		<meta property="og:description" content="We have a big announcement: we’re choosing to end our work as Little Weaver Web Collective." />
-		<meta name="description" content="We have a big announcement: we’re choosing to end our work as Little Weaver Web Collective." />
-	
 
-
-		<title>Closing Little Weaver
+		<title>Cheryl Yang
 </title>
 
 		<link rel="stylesheet" href="https://littleweaverweb.s3.amazonaws.com/static/CACHE/css/4beb28c1c3d9.css" type="text/css" />
@@ -72,7 +58,7 @@
 			</script>
 		
 	</head>
-	<body class="no-banner">
+	<body class="">
 
 		
 	<header class="site-header compact-header">
@@ -107,78 +93,72 @@
 	</header>
 	<main>
 		
+
+
+<div class="banner-image" style="background-image:url();background-position:top center;">
+  <div class="container banner-image-text">
+    <h1 class="color-white">Cheryl Yang</h1>
+  </div>
+</div>
+
+<div class="pane--light-gray p-y-3">
+  <div class="container">
+    <div class="col-sm-4 col-sm-push-8 col-md-3 col-md-push-7 m-b-2-xs-down">
+      <img alt="Cheryl with their Dew" class="img-fluid img-circle" height="500" src="https://littleweaverweb.s3.amazonaws.com/media/images/13318579_10208765015143341_1708664.2e16d0ba.fill-500x500.jpg" width="500">
+    </div>
+    <div class="col-sm-8 col-sm-pull-4 col-md-5 col-md-offset-2 col-md-pull-3">
+      <div class="lead--except-sm">
+	<div class="rich-text"><p>Cheryl is Little Weaver's 2016 Summer Intern! They enjoy programming with Django as well as making front end designs. They’re also a writer who created and runs <a href="https://www.ajumbleofwords.com/">A Jumble of Words</a>, a creative writing website based on writing prompts. <br/></p></div>
+      </div>
+      <ul class="list-inline">
 	
+	<li class="list-inline-item m-r-2"><a href="http://github.com/cheryllium" class="link-no-underline" title="GitHub profile">GitHub</a></li>
+	
+	
+	
+      </ul>
+    </div>
+  </div>
+</div>
 
-	<div class="container m-r-1-sm-only">
-		<div class="row m-y-2">
-			<div class='col-sm-8 col-sm-offset-3 col-md-10 col-md-offset-2 col-lg-8'>
-				<h1 class="color-black-almost">Closing Little Weaver</h1>
+<div class="container p-y-3">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <h1>Blog Entries</h1>
 
-				
-				<div>
-					<span class="color-black-almost">
-						
-                            <a href="/about/naomi-morduch-toubman">
-                                Naomi Morduch Toubman
-                            </a>
-						
-					</span>
-					<span class="dateline">
-						<time datetime="2018-03-13">March 13, 2018</time>
-					</span>
-				</div>
-
-			</div>
-		</div>
-
-		<main class='blog-content m-b-3'>
+      
+      <div class="m-t-3">
+	<header class="blog-post-header m-b-0">
+	<h2 class="blog-post-title card-title">
+		<a href="/blog/cheryl-yang-little-weaver/" class="color-black-almost">Cheryl Yang is a Little Weaver</a>
+	</h2>
+	<div class="blog-post-byline-dateline m-b-1">
+		<span class="color-black-almost">
 			
-				<div class='row block-rich_text'>
-					
-						<div class='col-xs-12 col-sm-9 col-sm-offset-3 col-md-8 col-md-offset-2 col-lg-6'>
-							<div class="rich-text"><h3>We have a big announcement: we’re choosing to end our work as Little Weaver Web Collective.</h3><p><br/></p><p>We see this as the next step for all of us. We’re excited to take what we’ve learned in building this horizontal, egalitarian business together and face even bigger challenges, ones where our work can have an even greater impact in continuing to create the world we wish to live in. (Don’t worry, dancers and organizers, Dancerfly will live on to continue to better serve dance event and weekend workshop needs.)<br/><br/><p>We want to thank all of the talented people we’ve had the opportunity to work with and look forward to staying in touch with our wider community.</p></p></div>
-						</div>
-					
-				</div>
+            <a href="/about/cheryl-yang">
+				Cheryl Yang
+            </a>
 			
-		</main>
-
-		
-			<div class="row m-b-3">
-				<div class="col-xs-12 col-sm-9 col-sm-offset-3 col-md-8 col-md-offset-2 col-lg-6">
-					
-						<div class="media">
-							<div class="media-left p-r-1">
-								
-									
-								<a href="/about/naomi-morduch-toubman">
-									<img src="https://littleweaverweb.s3.amazonaws.com/media/images/little-weavers-2017-May25-166_1.23d8eae3.fill-150x150.jpg" alt="naomi.jpg" width=100 class="img-circle media-object"/>
-								</a>
-								
-							</div>
-							<div class="media-body">
-								
-
-
-<h4>
-  <a href="/about/naomi-morduch-toubman">
-	Naomi Morduch Toubman
-  </a>
-</h4>
-
-	<div class="rich-text"><p>Naomi is a skilled user interface designer and front-end developer based in Connecticut. She architects efficient and maintainable CSS structures and HTML templates.</p></div>
-
-
-							</div>
-						</div>
-					
-				</div>
-			</div>
-		
-
-
+		</span>
+		<span class="dateline">
+			<time datetime="2016-06-24">June 24, 2016</time>
+		</span>
 	</div>
+</header>
+<div class="m-b-1">
+	We’d like to give a warm welcome to our new intern, Cheryl.
+</div>
+<footer>
+	<a href="/blog/cheryl-yang-little-weaver/" class="btn btn-sm btn-secondary m-t-1-tiny">Read <i class="fa fa-fw fa-chevron-right"></i></a>
+</footer>
 
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+  
 	</main>
 
 

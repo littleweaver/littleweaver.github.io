@@ -6,33 +6,19 @@
 <html class="no-js">
 	<head>
 		
-	
 			
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 			<meta property="og:site_name" content="Little Weaver Web Collective"/>
-			<meta property="og:url" content="https://littleweaverweb.com/blog/closing-little-weaver/" />
-			<meta property="og:title" content="Closing Little Weaver
+			<meta property="og:url" content="https://littleweaverweb.com/about/stephen-burrows/" />
+			<meta property="og:title" content="Stephen Burrows
 " />
 			<meta name="twitter:card" content="summary">
 			<meta name="twitter:site" content="@littleweaverweb">
 		
-	<meta property="og:type" content="article" />
-	
-		
-		<meta property="og:image" content="https://littleweaverweb.s3.amazonaws.com/media/images/mirotea.original.jpg" />
-	
-	
-		<meta name="twitter:creator" content="@nmorduch" />
-	
-	
-		<meta property="og:description" content="We have a big announcement: we’re choosing to end our work as Little Weaver Web Collective." />
-		<meta name="description" content="We have a big announcement: we’re choosing to end our work as Little Weaver Web Collective." />
-	
 
-
-		<title>Closing Little Weaver
+		<title>Stephen Burrows
 </title>
 
 		<link rel="stylesheet" href="https://littleweaverweb.s3.amazonaws.com/static/CACHE/css/4beb28c1c3d9.css" type="text/css" />
@@ -72,7 +58,7 @@
 			</script>
 		
 	</head>
-	<body class="no-banner">
+	<body class="">
 
 		
 	<header class="site-header compact-header">
@@ -107,78 +93,182 @@
 	</header>
 	<main>
 		
+
+
+<div class="banner-image" style="background-image:url();background-position:top center;">
+  <div class="container banner-image-text">
+    <h1 class="color-white">Stephen Burrows</h1>
+  </div>
+</div>
+
+<div class="pane--light-gray p-y-3">
+  <div class="container">
+    <div class="col-sm-4 col-sm-push-8 col-md-3 col-md-push-7 m-b-2-xs-down">
+      <img alt="stephen.jpg" class="img-fluid img-circle" height="500" src="https://littleweaverweb.s3.amazonaws.com/media/images/little-weavers-2017-May25-216.f067a6c9.fill-500x500.jpg" width="500">
+    </div>
+    <div class="col-sm-8 col-sm-pull-4 col-md-5 col-md-offset-2 col-md-pull-3">
+      <div class="lead--except-sm">
+	<div class="rich-text"><p>Stephen is an experienced Python engineer and server administrator based in Seattle, WA. He has been building and deploying Python/Django-based web applications for eight years.</p></div>
+      </div>
+      <ul class="list-inline">
 	
+	<li class="list-inline-item m-r-2"><a href="http://github.com/melinath" class="link-no-underline" title="GitHub profile">GitHub</a></li>
+	
+	
+	<li class="list-inline-item m-r-2"><a href="http://twitter.com/pythonburrows" class="link-no-underline" title="Twitter profile">Twitter</a></li>
+	
+	
+      </ul>
+    </div>
+  </div>
+</div>
 
-	<div class="container m-r-1-sm-only">
-		<div class="row m-y-2">
-			<div class='col-sm-8 col-sm-offset-3 col-md-10 col-md-offset-2 col-lg-8'>
-				<h1 class="color-black-almost">Closing Little Weaver</h1>
+<div class="container p-y-3">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <h1>Blog Entries</h1>
 
-				
-				<div>
-					<span class="color-black-almost">
-						
-                            <a href="/about/naomi-morduch-toubman">
-                                Naomi Morduch Toubman
-                            </a>
-						
-					</span>
-					<span class="dateline">
-						<time datetime="2018-03-13">March 13, 2018</time>
-					</span>
-				</div>
-
-			</div>
-		</div>
-
-		<main class='blog-content m-b-3'>
+      
+      <div class="m-t-3">
+	<header class="blog-post-header m-b-0">
+	<h2 class="blog-post-title card-title">
+		<a href="/blog/dancerfly-beta/" class="color-black-almost">Dancerfly Beta</a>
+	</h2>
+	<div class="blog-post-byline-dateline m-b-1">
+		<span class="color-black-almost">
 			
-				<div class='row block-rich_text'>
-					
-						<div class='col-xs-12 col-sm-9 col-sm-offset-3 col-md-8 col-md-offset-2 col-lg-6'>
-							<div class="rich-text"><h3>We have a big announcement: we’re choosing to end our work as Little Weaver Web Collective.</h3><p><br/></p><p>We see this as the next step for all of us. We’re excited to take what we’ve learned in building this horizontal, egalitarian business together and face even bigger challenges, ones where our work can have an even greater impact in continuing to create the world we wish to live in. (Don’t worry, dancers and organizers, Dancerfly will live on to continue to better serve dance event and weekend workshop needs.)<br/><br/><p>We want to thank all of the talented people we’ve had the opportunity to work with and look forward to staying in touch with our wider community.</p></p></div>
-						</div>
-					
-				</div>
+            <a href="/about/stephen-burrows">
+				Stephen Burrows
+            </a>
 			
-		</main>
-
-		
-			<div class="row m-b-3">
-				<div class="col-xs-12 col-sm-9 col-sm-offset-3 col-md-8 col-md-offset-2 col-lg-6">
-					
-						<div class="media">
-							<div class="media-left p-r-1">
-								
-									
-								<a href="/about/naomi-morduch-toubman">
-									<img src="https://littleweaverweb.s3.amazonaws.com/media/images/little-weavers-2017-May25-166_1.23d8eae3.fill-150x150.jpg" alt="naomi.jpg" width=100 class="img-circle media-object"/>
-								</a>
-								
-							</div>
-							<div class="media-body">
-								
-
-
-<h4>
-  <a href="/about/naomi-morduch-toubman">
-	Naomi Morduch Toubman
-  </a>
-</h4>
-
-	<div class="rich-text"><p>Naomi is a skilled user interface designer and front-end developer based in Connecticut. She architects efficient and maintainable CSS structures and HTML templates.</p></div>
-
-
-							</div>
-						</div>
-					
-				</div>
-			</div>
-		
-
-
+		</span>
+		<span class="dateline">
+			<time datetime="2014-10-24">Oct. 24, 2014</time>
+		</span>
 	</div>
+</header>
+<div class="m-b-1">
+	We’d like to announce the public beta of Dancerfly, our dance event management platform! Here are some screenshots to celebrate the occasion!
+</div>
+<footer>
+	<a href="/blog/dancerfly-beta/" class="btn btn-sm btn-secondary m-t-1-tiny">Read <i class="fa fa-fw fa-chevron-right"></i></a>
+</footer>
 
+      </div>
+      
+      <div class="m-t-3">
+	<header class="blog-post-header m-b-0">
+	<h2 class="blog-post-title card-title">
+		<a href="/blog/evolution-marketing-page/" class="color-black-almost">Evolution of a Marketing Page</a>
+	</h2>
+	<div class="blog-post-byline-dateline m-b-1">
+		<span class="color-black-almost">
+			
+            <a href="/about/stephen-burrows">
+				Stephen Burrows
+            </a>
+			
+		</span>
+		<span class="dateline">
+			<time datetime="2015-06-24">June 24, 2015</time>
+		</span>
+	</div>
+</header>
+<div class="m-b-1">
+	It turns out that there’s a lot more to setting up a platform than just writing the code. And most of it we didn’t know when we made the first commit on February 20, 2014, despite having worked professionally in web design &amp; development for over five years! I’m going to focus on the evolution of our marketing strategy and materials. I hope this’ll be helpful to other non-sales folks who are looking to create and market their own product!
+</div>
+<footer>
+	<a href="/blog/evolution-marketing-page/" class="btn btn-sm btn-secondary m-t-1-tiny">Read <i class="fa fa-fw fa-chevron-right"></i></a>
+</footer>
+
+      </div>
+      
+      <div class="m-t-3">
+	<header class="blog-post-header m-b-0">
+	<h2 class="blog-post-title card-title">
+		<a href="/blog/why-we-provided-trad-blues-and-alt-blues-options-and-why-weve-stopped/" class="color-black-almost">Why we provided &quot;Trad Blues&quot; and &quot;Alt Blues&quot; options – and why we&#39;ve stopped</a>
+	</h2>
+	<div class="blog-post-byline-dateline m-b-1">
+		<span class="color-black-almost">
+			
+            <a href="/about/stephen-burrows">
+				Stephen Burrows
+            </a>
+			
+		</span>
+		<span class="dateline">
+			<time datetime="2015-07-03">July 3, 2015</time>
+		</span>
+	</div>
+</header>
+<div class="m-b-1">
+	Dancerfly originally made a distinction between &quot;Alt Blues&quot;, &quot;Trad Blues&quot;, and &quot;Fusion&quot;. But moving forward we&#39;ll be providing &quot;Blues&quot; and &quot;Fusion&quot; instead.
+</div>
+<footer>
+	<a href="/blog/why-we-provided-trad-blues-and-alt-blues-options-and-why-weve-stopped/" class="btn btn-sm btn-secondary m-t-1-tiny">Read <i class="fa fa-fw fa-chevron-right"></i></a>
+</footer>
+
+      </div>
+      
+      <div class="m-t-3">
+	<header class="blog-post-header m-b-0">
+	<h2 class="blog-post-title card-title">
+		<a href="/blog/ractive-lazy-loading/" class="color-black-almost">Ractive lazy loading</a>
+	</h2>
+	<div class="blog-post-byline-dateline m-b-1">
+		<span class="color-black-almost">
+			
+            <a href="/about/stephen-burrows">
+				Stephen Burrows
+            </a>
+			
+		</span>
+		<span class="dateline">
+			<time datetime="2015-11-18">Nov. 18, 2015</time>
+		</span>
+	</div>
+</header>
+<div class="m-b-1">
+	How to lazy load using ractive
+</div>
+<footer>
+	<a href="/blog/ractive-lazy-loading/" class="btn btn-sm btn-secondary m-t-1-tiny">Read <i class="fa fa-fw fa-chevron-right"></i></a>
+</footer>
+
+      </div>
+      
+      <div class="m-t-3">
+	<header class="blog-post-header m-b-0">
+	<h2 class="blog-post-title card-title">
+		<a href="/blog/query-count-pitfalls-and-how-avoid-them/" class="color-black-almost">Query count pitfalls and how to avoid them</a>
+	</h2>
+	<div class="blog-post-byline-dateline m-b-1">
+		<span class="color-black-almost">
+			
+            <a href="/about/stephen-burrows">
+				Stephen Burrows
+            </a>
+			
+		</span>
+		<span class="dateline">
+			<time datetime="2018-01-23">Jan. 23, 2018</time>
+		</span>
+	</div>
+</header>
+<div class="m-b-1">
+	If you notice that your Django application is running slowly, the first place I always recommend looking is at how many SQL queries you’re running. Even in simple applications, there are likely to be easy opportunities to reduce your query count that result in a significant performance improvement. In this blog post I’ll cover some common pitfalls, some best practices, and how to measure the number of queries you’re making.
+</div>
+<footer>
+	<a href="/blog/query-count-pitfalls-and-how-avoid-them/" class="btn btn-sm btn-secondary m-t-1-tiny">Read <i class="fa fa-fw fa-chevron-right"></i></a>
+</footer>
+
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+  
 	</main>
 
 
