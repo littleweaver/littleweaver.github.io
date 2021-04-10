@@ -1,0 +1,66 @@
+.nav--lw
+	@extend .clearfix
+	margin-left: -15px
+	margin-right: -15px
+
+	> li > .nav-link
+		float: left
+		padding-top: .875rem
+		padding-bottom: .875rem
+		position: relative
+		&::after
+			content: ""
+			display: block
+			position: absolute
+			top: 0
+			right: 0
+			left: auto
+			background-color: rgba(white, .5)
+			height: 0
+			width: 100%
+			transition: height .25s ease-in-out
+
+	> li.active > .nav-link, & > li > .nav-link:hover
+		&::after
+			right: auto
+			left: 0
+			height: .375rem
+			width: 100%
+			+media-breakpoint-down(xs)
+				display: none
+
+	> li.active > .nav-link::after
+		background-color: $white
+
+	.nav-link
+		color: $gray-mid
+		transition: .15s linear color
+		&:hover
+			background: transparent
+			color: $gray-dark
+	.nav-link-special
+		color: $gray-dark
+		font-weight: 500
+		&:hover
+			color: $black
+
+.nav--lw--links
+	+media-breakpoint-down(xs)
+		width: 100%
+		margin-bottom: 0.85rem
+		> .nav-item
+			margin: 0 !important
+			box-sizing: border-box
+			width: 50%
+			> .nav-link
+				padding-top: 0.25rem
+				padding-bottom: 0.25rem
+	.compact-header &
+		+media-breakpoint-up(sm)
+			margin-left: 3*$spacer-x
+
+.nav--white
+	.nav-link
+		color: $white
+		&:hover
+			color: rgba($white,0.8)

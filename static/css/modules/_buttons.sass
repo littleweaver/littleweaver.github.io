@@ -1,0 +1,41 @@
+.btn
+	transition: .1s linear all
+
+.btn-wrap
+	white-space: normal
+
+.btn-white
+	background-color: white
+	background-image: linear-gradient(0deg, rgba(black, .07), rgba(black, 0))
+	box-shadow: 0 1px 0 rgba(black, .15)
+	color: #666
+	border: 0
+	text-shadow: 0 1px 0 #FFF
+	&:hover
+		background-color: #E5E5E5
+		color: #555
+
+.btn-white-o
+	border-color: rgba(white, .6)
+	color: white
+	text-shadow: 0 1px 0 rgba(black, .15), inset 0 1px 0 rgba(black, .15)
+	&:hover
+		color: white
+		background-color: rgba(white, .15)
+
+.btn-green-outline
+	border: 1px solid $brand-primary
+	border-radius: 5px
+	padding: 0.5rem 1rem
+	transition: all 0.25s ease
+
+	&:focus,
+	&:hover
+		background-color: $brand-primary
+		color: white
+		text-decoration: none
+
+.btn-xs-down-block
+	+media-breakpoint-down(xs)
+		display: block
+		margin-bottom: .5rem

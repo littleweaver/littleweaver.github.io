@@ -1,0 +1,20 @@
+.pane--light-gray
+	background-color: $gray-light
+
+.pane--light-gray--top-shadow
+	@extend .pane--light-gray
+	box-shadow: 0 -5rem 0 3rem $gray-light
+
+
+.pane--brown-dark
+	background-color: $brown-dark
+	color: lighten($brown-dark, 50%)
+
+.pane--green-dark
+  background-color: $green-dark-variant
+
+.pane--outline + .pane--outline
+	border-top: 1px solid $gray-light
+
+.pane--outline-single
+	border-bottom: 1px solid $gray-light
